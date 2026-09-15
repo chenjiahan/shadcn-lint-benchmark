@@ -34,7 +34,7 @@ The plugin is built in CI from upstream commit `53de86f0e7dcc341a9cb45c383a9f2c4
 
 ## Method
 
-20 fresh CLI processes per case after 3 warmups, serial randomized interleaving (fixed seed). Reported times are medians. No manual worker limits, lint cache, or fixes. Oxlint receives `--no-ignore` so generated stress files excluded from Git are still linted; input counts are verified. Node module compile caching is disabled equally. Dependency installation, plugin build, input generation, and validation are outside timing.
+20 fresh CLI processes per case after 3 warmups, serial randomized interleaving (fixed seed). Reported times are medians. No manual worker limits, lint cache, or fixes. All three CLIs receive the same explicit file list, prepared outside timing. Oxlint also receives `--no-ignore` so generated files are linted despite Git exclusions; input counts are verified. Node module compile caching is disabled equally. Dependency installation, plugin build, input generation, and validation are outside timing.
 
 Timing measures process start through exit, including native JSON/JSONL report serialization, with output discarded. Report formats follow each tool's CLI. Raw data includes all 240 measurements; `summary.json` adds P10/P90, standard deviation, and a bootstrap interval. The same GitHub-hosted Ubuntu 24.04 runner executes all cases in one job; exact image version, CPU, memory, and dependency versions are recorded.
 

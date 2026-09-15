@@ -1,6 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url));
-export const targets={fixture:['components/ui','lib/utils.ts'],stress:['stress']};
+export const targets={fixture:fs.readdirSync(path.join(root,'fixture/components/ui')).filter(p=>/\.tsx?$/.test(p)).sort().map(p=>`components/ui/${p}`).concat('lib/utils.ts'),stress:Array.from({length:1000},(_,i)=>`stress/dropdown-${String(i).padStart(4,'0')}.tsx`)};
 export const tools=['oxlint','rslint','eslint'];
 export const modes=['ts','combined'];
 export function run(tool,mode,label,{capture=true,timing=false,extra=[]}={}) {
