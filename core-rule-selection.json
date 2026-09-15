@@ -1,0 +1,19 @@
+{
+  "eslintVersion": "10.9.1",
+  "recommendedPreset": "@eslint/js@10.0.1",
+  "recommendedCount": 64,
+  "enabledCoreCount": 61,
+  "selection": "ESLint recommended core rules present in Oxlint 1.83.0 and verified with positive/negative CLI cases in all three engines.",
+  "excluded": {
+    "no-dupe-args": "Not exposed as an ESLint core lint rule in the Oxlint 1.83.0 rule catalog.",
+    "no-octal": "Not exposed as an ESLint core lint rule in the Oxlint 1.83.0 rule catalog.",
+    "no-nonoctal-decimal-escape": "Present in all catalogs, but Rslint 0.9.2 reports parser error TypeScript(TS1488) on the positive case instead of this lint rule. Excluded from the verified common set, not classified as unimplemented."
+  },
+  "excludedParserProbe": {
+    "source": "const value = '\\8';",
+    "eslintRule": "no-nonoctal-decimal-escape",
+    "oxlintRule": "eslint(no-nonoctal-decimal-escape)",
+    "rslintRule": "TypeScript(TS1488)",
+    "rslintMessage": "Escape sequence '\\8' is not allowed."
+  }
+}

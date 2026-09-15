@@ -13,3 +13,4 @@ node_modules
 /BENCHMARK.md
 .DS_Store
 __pycache__/
+/core-canary-fixture/

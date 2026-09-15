@@ -17,6 +17,7 @@ const cmd = (c, args) => {
 };
 const pkg = JSON.parse(read("package.json"));
 const env = {
+  benchmarkSuite: JSON.parse(read("benchmark-suite.json")),
   timestamp: new Date().toISOString(),
   platform: os.platform(),
   release: os.release(),

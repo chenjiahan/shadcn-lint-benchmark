@@ -51,7 +51,9 @@ for (const dir of ["fixture", "stress-fixture", "canary-fixture"]) {
     JSON.parse(fs.readFileSync(`${dir}/tsconfig.json`)),
     JSON.parse(fs.readFileSync("fixture/tsconfig.json")),
   );
-  for (const mode of ["ts", "combined"]) {
+  for (const mode of dir === "canary-fixture"
+    ? ["ts", "combined"]
+    : ["ts", "combined", "core-ts", "core-combined"]) {
     const es = (await import(`./${dir}/eslint.${mode}.mjs`)).default[0].rules;
     const rs = (await import(`./${dir}/rslint.${mode}.mjs`)).default[0].rules;
     const ox = JSON.parse(fs.readFileSync(`${dir}/oxlint.${mode}.json`)).rules;
@@ -63,7 +65,11 @@ for (const dir of ["fixture", "stress-fixture", "canary-fixture"]) {
     );
     assert.deepEqual(es, rs);
     assert.deepEqual(es, normalized);
-    assert.equal(Object.keys(es).length, mode === "ts" ? 23 : 29);
+    assert.equal(
+      Object.keys(es).length,
+      (mode.includes("combined") ? 29 : 23) +
+        (mode.startsWith("core-") ? 61 : 0),
+    );
     for (const [k, v] of Object.entries(ts)) assert.equal(es[k], v);
   }
 }
@@ -75,7 +81,7 @@ fs.writeFileSync(
       sourceHashes: hashes,
       stressCopies: 1000,
       stressCopySha256: sourceHash,
-      ruleCounts: { ts: 23, combined: 29 },
+      ruleCounts: { ts: 23, combined: 29, "core-ts": 84, "core-combined": 90 },
       passed: true,
     },
     null,

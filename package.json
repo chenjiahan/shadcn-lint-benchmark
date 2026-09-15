@@ -1,10 +1,10 @@
 {
   "name": "shadcn-lint-benchmark",
   "version": "1.0.0",
-  "description": "23 matched TypeScript-aware rules, optionally plus 6 shadcn rules; Oxlint + oxlint-tsgolint, Rslint, ESLint",
+  "description": "61 shared ESLint recommended core rules + 23 type-aware rules, optionally plus 6 Shadcn rules",
   "main": "index.js",
   "scripts": {
-    "validate": "node canary.mjs && node bench.mjs --probe && python3 validate.py",
+    "validate": "node core-canary.mjs && node effective-rules.mjs && node canary.mjs && node bench.mjs --probe && python3 validate.py",
     "bench": "node bench.mjs --measure && python3 summarize.py",
     "prepare:fixture": "node reproduce.mjs",
     "report": "python3 report.py",

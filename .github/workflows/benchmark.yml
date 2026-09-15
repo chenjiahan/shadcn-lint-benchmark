@@ -48,6 +48,9 @@ jobs:
             summary.json
             environment.json
             input-check.json
+            benchmark-suite.json
+            core-rules.json
+            core-rule-selection.json
             expected-statuses.json
             validation/
             validation-before/

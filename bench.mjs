@@ -16,7 +16,9 @@ export const targets = {
   ),
 };
 export const tools = ["oxlint", "rslint", "eslint"];
-export const modes = ["ts", "combined"];
+export const modes = Object.keys(
+  JSON.parse(fs.readFileSync(path.join(root, "benchmark-suite.json"))).modes,
+);
 export function run(
   tool,
   mode,

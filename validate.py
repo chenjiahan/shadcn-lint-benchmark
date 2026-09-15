@@ -1,8 +1,9 @@
 import json,collections,pathlib,hashlib
 root=pathlib.Path(__file__).resolve().parent
 out={};statuses={}
+suite=json.loads((root/'benchmark-suite.json').read_text())
 for label in ['canary','fixture','stress']:
- for mode in (['ts'] if label=='canary' else ['ts','combined']):
+ for mode in (['ts'] if label=='canary' else list(suite['modes'])):
   key=f'{label}-{mode}';rows={}
   cwd=root/('canary-fixture' if label=='canary' else 'stress-fixture' if label=='stress' else 'fixture')
   for tool in ['eslint','oxlint','rslint']:
@@ -15,9 +16,9 @@ for label in ['canary','fixture','stress']:
      for m in f['messages']:
       file=str(pathlib.Path(f['filePath']).relative_to(cwd));rule=m['ruleId'].replace('@typescript-eslint/','typescript/');res.append((file,rule,m['line'],m['column'],m.get('endLine'),m.get('endColumn')));detail.append(res[-1]+(m['message'],))
    elif tool=='oxlint':
-    v=json.loads(s);meta={k:v[k] for k in ['number_of_files','number_of_rules','threads_count']};assert meta['number_of_rules']==(23 if mode=='ts' else 29),meta
+    v=json.loads(s);meta={k:v[k] for k in ['number_of_files','number_of_rules','threads_count']};assert meta['number_of_rules']==(23 if label=='canary' else suite['modes'][mode]['ruleCount']),meta
     for m in v['diagnostics']:
-     span=m['labels'][0]['span'];file=m['filename'];rule=m['code'].replace('(','/').removesuffix(')');prefix=(cwd/file).read_bytes()[:span['offset']+span['length']].decode();res.append((file,rule,span['line'],span['column'],prefix.count('\n')+1,len(prefix.rsplit('\n',1)[-1])+1));detail.append(res[-1]+(m['message'],))
+     span=m['labels'][0]['span'];file=m['filename'];rule=m['code'].replace('(','/').removesuffix(')').removeprefix('eslint/');prefix=(cwd/file).read_bytes()[:span['offset']+span['length']].decode();res.append((file,rule,span['line'],span['column'],prefix.count('\n')+1,len(prefix.rsplit('\n',1)[-1])+1));detail.append(res[-1]+(m['message'],))
    else:
     for l in s.splitlines():
      m=json.loads(l);pos=m['range'];res.append((m['filePath'],m['ruleName'].replace('@typescript-eslint/','typescript/'),pos['start']['line'],pos['start']['column'],pos['end']['line'],pos['end']['column']));detail.append(res[-1]+(m['message'],))
