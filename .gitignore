@@ -1,0 +1,15 @@
+node_modules
+.upstream
+plugin/
+stress-fixture/stress/
+validation/
+validation-before/
+expected-statuses.json
+timings.json
+timings.csv
+summary.json
+environment.json
+input-check.json
+BENCHMARK.md
+.DS_Store
+__pycache__/

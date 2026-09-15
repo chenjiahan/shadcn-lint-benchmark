@@ -1,0 +1,53 @@
+name: Benchmark
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24.19.0
+      - name: Install pinned dependencies
+        run: |
+          npm ci --registry=https://registry.npmjs.org
+          npm install --global pnpm@10.28.2 --registry=https://registry.npmjs.org
+      - name: Build plugin from pinned upstream commit
+        run: npm run build:plugin
+      - name: Prepare and verify inputs
+        run: |
+          npm run prepare:fixture
+          npm run verify:inputs
+          node environment.mjs
+      - name: Validate rules and diagnostics before timing
+        run: |
+          npm run validate
+          cp -r validation validation-before
+      - name: Benchmark with default workers
+        env:
+          BENCH_ROUNDS: '20'
+        run: npm run bench
+      - name: Revalidate and publish summary
+        run: |
+          npm run validate
+          npm run report
+      - name: Upload raw results and validation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: benchmark-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 90
+          path: |
+            BENCHMARK.md
+            timings.json
+            timings.csv
+            summary.json
+            environment.json
+            input-check.json
+            expected-statuses.json
+            validation/
+            validation-before/
