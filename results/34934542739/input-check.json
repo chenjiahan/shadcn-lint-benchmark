@@ -1,0 +1,30 @@
+{
+  "upstream": "53de86f0e7dcc341a9cb45c383a9f2c454d1e958",
+  "sourceHashes": {
+    "fixture/app/globals.css": "8cd83c3962f2bfc9e71d2134e50148706f04c77b6951dfdcf4e3b26705960b4b",
+    "fixture/app/shadcn-tailwind.css": "9f501404aa24b7cde9ad69e7e8e0e49a8fee61f82446109b6c3e0367e2eec115",
+    "fixture/components/ui/avatar.tsx": "2519743a91d3347b637592a001786b8c467ee8b29f3848ffa23447268b41d3c9",
+    "fixture/components/ui/badge.tsx": "9bfd65cb1ad574276a67d4e6bdf32f03b78dc7f71ac5ee704e64bdd188d79c8d",
+    "fixture/components/ui/button.tsx": "a31646278250488af016e773d9daa63736a3635808cc472fb13829a46c08f62f",
+    "fixture/components/ui/card.tsx": "4442c75caf2dcd6c7ff92867f7a3cc48c5b9cf7e27fbaff328f144b4db688942",
+    "fixture/components/ui/dropdown-menu.tsx": "23f427b95d3c5c89682c4dbcd0b59f334435ba69bab79d36061e47a0d9c00144",
+    "fixture/components/ui/input.tsx": "1a6ce9beeabe078b356ec5ec0ac8b967fcc027d13248d44b8613d3f21c4b7491",
+    "fixture/components/ui/label.tsx": "64d4eea0fd5979b5d0ae940521131a621d2e6d43f2b6f4b000d4ba935f73cc17",
+    "fixture/components/ui/select.tsx": "78c8627298150d273a785faee5ac703c7bb153c1fa28c6cd19a05fc4f4f9af03",
+    "fixture/components/ui/separator.tsx": "b6b0e985ae7ab15eeb304303f83d5c6afdb2be8af624e00355a23d9c3e131df0",
+    "fixture/components/ui/table.tsx": "af2c73194ef5e018a595fee5d8422e70f944949dceaa9bd817ba0292e1139777",
+    "fixture/components/ui/tabs.tsx": "fe980251cb8299f036b4e3425b05f36ec9233dbd0c22d325adc7670310b4d5fc",
+    "fixture/components.json": "73ead231a6de5090ea7415fa3bd1acc10b3ef93f381132fff485c34e09147e12",
+    "fixture/lib/utils.ts": "7f7082a8e4a8137a17d45372a67c6272dbc8eca95451cc2f4645fe866249e3f9",
+    "plugin/index.js": "dcc258ceb87a2d01f7a6828643ea47acfde8c7cca851adfdb676248262b9ffaa",
+    "plugin/similar.js": "7990b7afa312fe983dd46990b643a6593c1aec3828f86e7fa2680dc01b3ea136",
+    "plugin/tailwind-worker.js": "7e6a59b88a8e5a727ed266e9e2e93b1e4e5df05421c0b1c957e700836ac4320d"
+  },
+  "stressCopies": 1000,
+  "stressCopySha256": "23f427b95d3c5c89682c4dbcd0b59f334435ba69bab79d36061e47a0d9c00144",
+  "ruleCounts": {
+    "ts": 23,
+    "combined": 29
+  },
+  "passed": true
+}
