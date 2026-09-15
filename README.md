@@ -4,10 +4,10 @@ Compare **Oxlint, Rslint, and ESLint** with identical inputs and enabled rules o
 
 ## Benchmarks
 
-| Configuration | Enabled rules |
-| --- | ---: |
-| 6 Shadcn Rules + 23 Type-Aware Rules | 29 |
-| 23 Type-Aware Rules Only | 23 |
+| Configuration                        | Enabled rules |
+| ------------------------------------ | ------------: |
+| 6 Shadcn Rules + 23 Type-Aware Rules |            29 |
+| 23 Type-Aware Rules Only             |            23 |
 
 Each configuration runs on two workloads:
 
