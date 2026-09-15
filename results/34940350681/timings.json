@@ -1,0 +1,1927 @@
+{
+  "rounds": 20,
+  "warmups": 3,
+  "seed": 20260915,
+  "samples": [
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 0,
+      "ms": 7197.682163999998,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 0,
+      "ms": 5674.182155999995,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 0,
+      "ms": 291.6611869999906,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 0,
+      "ms": 2984.6998759999988,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 0,
+      "ms": 25138.997569999978,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 0,
+      "ms": 2887.915573000035,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 0,
+      "ms": 353.2417940000305,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 0,
+      "ms": 3855.2287690000376,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 0,
+      "ms": 27687.67682599998,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 0,
+      "ms": 3942.010714999982,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 0,
+      "ms": 836.6062350000138,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 0,
+      "ms": 685.761698999966,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 1,
+      "ms": 27411.848776999977,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 1,
+      "ms": 7061.076401999977,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 1,
+      "ms": 2820.9848429999547,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 1,
+      "ms": 4027.7995809999993,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 1,
+      "ms": 3676.8406520000426,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 1,
+      "ms": 24509.488592999987,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 1,
+      "ms": 654.3151859999634,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 1,
+      "ms": 841.4439950000378,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 1,
+      "ms": 5652.704456999956,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 1,
+      "ms": 309.39198499999475,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 1,
+      "ms": 3008.579650999978,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 1,
+      "ms": 325.4003280000179,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 2,
+      "ms": 5663.215250999958,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 2,
+      "ms": 694.0145740000298,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 2,
+      "ms": 3968.2255219999934,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 2,
+      "ms": 26914.481565000024,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 2,
+      "ms": 2872.2330989999464,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 2,
+      "ms": 7156.4063580000075,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 2,
+      "ms": 360.5094650000101,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 2,
+      "ms": 313.9359790000017,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 2,
+      "ms": 2965.232197000005,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 2,
+      "ms": 827.2896630000323,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 2,
+      "ms": 24810.444665999967,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 2,
+      "ms": 3636.5445419999887,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 3,
+      "ms": 6092.976462999999,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 3,
+      "ms": 2903.997413999983,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 3,
+      "ms": 348.08746700000484,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 3,
+      "ms": 4003.2254149999935,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 3,
+      "ms": 7134.716353000025,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 3,
+      "ms": 312.5348170000361,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 3,
+      "ms": 832.7629430000088,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 3,
+      "ms": 3660.2300490000052,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 3,
+      "ms": 25691.791467000032,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 3,
+      "ms": 28371.495344999945,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 3,
+      "ms": 3069.196957999957,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 3,
+      "ms": 688.0524219999788,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 4,
+      "ms": 3720.7832260000287,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 4,
+      "ms": 5968.342288999935,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 4,
+      "ms": 28470.675971999997,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 4,
+      "ms": 353.1256580000045,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 4,
+      "ms": 3895.2211159999715,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 4,
+      "ms": 663.6638890000759,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 4,
+      "ms": 3042.27279800002,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 4,
+      "ms": 303.1806670000078,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 4,
+      "ms": 7292.038246000069,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 4,
+      "ms": 822.5519290000666,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 4,
+      "ms": 2872.442459999933,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 4,
+      "ms": 25605.92872899992,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 5,
+      "ms": 815.1140850000083,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 5,
+      "ms": 3657.0703280000016,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 5,
+      "ms": 3958.6308449999196,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 5,
+      "ms": 347.6061289999634,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 5,
+      "ms": 25784.169697999954,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 5,
+      "ms": 5993.512677000021,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 5,
+      "ms": 7128.734360000002,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 5,
+      "ms": 299.65085899992846,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 5,
+      "ms": 2906.6545860000188,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 5,
+      "ms": 27334.838861000026,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 5,
+      "ms": 3015.090786000015,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 5,
+      "ms": 687.5666280000005,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 6,
+      "ms": 2830.2200380000286,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 6,
+      "ms": 305.98491900006775,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 6,
+      "ms": 27430.73363000003,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 6,
+      "ms": 354.3854430000065,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 6,
+      "ms": 3014.2655830000294,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 6,
+      "ms": 667.0159660000354,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 6,
+      "ms": 825.1746390000917,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 6,
+      "ms": 5658.551951000001,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 6,
+      "ms": 3962.8252929999726,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 6,
+      "ms": 25467.810456000036,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 6,
+      "ms": 4055.282390999957,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 6,
+      "ms": 7229.00628500001,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 7,
+      "ms": 306.0490850000642,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 7,
+      "ms": 2847.3649720000103,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 7,
+      "ms": 27066.281139999977,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 7,
+      "ms": 801.1712680000346,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 7,
+      "ms": 7055.283668000018,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 7,
+      "ms": 3740.9157109999796,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 7,
+      "ms": 3054.4016529999208,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 7,
+      "ms": 3983.0251179999905,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 7,
+      "ms": 25367.30410499999,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 7,
+      "ms": 695.7812420000555,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 7,
+      "ms": 339.9794169999659,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 7,
+      "ms": 5761.997667000047,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 8,
+      "ms": 24622.546725000022,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 8,
+      "ms": 338.4860819999594,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 8,
+      "ms": 2922.4987360000378,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 8,
+      "ms": 870.5841550000478,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 8,
+      "ms": 7207.56196099997,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 8,
+      "ms": 3945.8296329999575,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 8,
+      "ms": 295.616326999967,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 8,
+      "ms": 686.5780430000741,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 8,
+      "ms": 27219.26030299999,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 8,
+      "ms": 6056.448784000007,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 8,
+      "ms": 3951.577369000064,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 8,
+      "ms": 2994.5418109999737,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 9,
+      "ms": 831.3193619999802,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 9,
+      "ms": 5869.967397000059,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 9,
+      "ms": 2991.4073420000495,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 9,
+      "ms": 2824.9133810000494,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 9,
+      "ms": 25633.717972000013,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 9,
+      "ms": 680.9242709999671,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 9,
+      "ms": 26477.474129999988,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 9,
+      "ms": 3672.447048999951,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 9,
+      "ms": 350.2510200000834,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 9,
+      "ms": 315.3619680000702,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 9,
+      "ms": 7131.857818000019,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 9,
+      "ms": 3630.257532999851,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 10,
+      "ms": 351.3818920000922,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 10,
+      "ms": 25388.799715000205,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 10,
+      "ms": 6017.174563999986,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 10,
+      "ms": 26996.445906999987,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 10,
+      "ms": 2986.7849570000544,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 10,
+      "ms": 2877.4832049999386,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 10,
+      "ms": 7091.933923000004,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 10,
+      "ms": 3633.9285430000164,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 10,
+      "ms": 683.1170289998408,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 10,
+      "ms": 294.9572680001147,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 10,
+      "ms": 833.06715300004,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 10,
+      "ms": 3635.4201390000526,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 11,
+      "ms": 347.8734509998467,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 11,
+      "ms": 304.23589299991727,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 11,
+      "ms": 3009.7693709998857,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 11,
+      "ms": 6014.393281999975,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 11,
+      "ms": 2872.7315889999736,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 11,
+      "ms": 26982.550927999895,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 11,
+      "ms": 25276.26283999998,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 11,
+      "ms": 7114.161248999881,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 11,
+      "ms": 3715.842249999987,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 11,
+      "ms": 828.7754919999279,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 11,
+      "ms": 688.1582420000341,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 11,
+      "ms": 4029.42862599995,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 12,
+      "ms": 349.0553830000572,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 12,
+      "ms": 3693.6889480000827,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 12,
+      "ms": 25254.54472399992,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 12,
+      "ms": 2973.9591030001175,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 12,
+      "ms": 5985.179095000029,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 12,
+      "ms": 27047.009560999926,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 12,
+      "ms": 657.1220899999607,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 12,
+      "ms": 2895.422350999899,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 12,
+      "ms": 3996.3054080000147,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 12,
+      "ms": 848.3129200001713,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 12,
+      "ms": 303.61975500010885,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 12,
+      "ms": 7163.473578999983,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 13,
+      "ms": 3649.5037090000696,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 13,
+      "ms": 2859.66150799999,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 13,
+      "ms": 25075.28507099999,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 13,
+      "ms": 7023.264773000032,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 13,
+      "ms": 653.310734000057,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 13,
+      "ms": 304.6198400000576,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 13,
+      "ms": 366.01239199982956,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 13,
+      "ms": 2980.0379289998673,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 13,
+      "ms": 832.0595070000272,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 13,
+      "ms": 26973.025105999783,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 13,
+      "ms": 3610.0056259999983,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 13,
+      "ms": 6029.424607999856,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 14,
+      "ms": 2885.658545000013,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 14,
+      "ms": 24957.033305000048,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 14,
+      "ms": 27340.916505999863,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 14,
+      "ms": 803.6371610001661,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 14,
+      "ms": 308.80296300002374,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 14,
+      "ms": 3610.6723230001517,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 14,
+      "ms": 2993.0620279998984,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 14,
+      "ms": 5768.806702999864,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 14,
+      "ms": 3887.8178129999433,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 14,
+      "ms": 677.6382270001341,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 14,
+      "ms": 7112.421277999878,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 14,
+      "ms": 364.8702640000265,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 15,
+      "ms": 26952.07362599997,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 15,
+      "ms": 829.0443979999982,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 15,
+      "ms": 3627.8286109999754,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 15,
+      "ms": 356.5393089998979,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 15,
+      "ms": 681.5824530001264,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 15,
+      "ms": 25148.748106000014,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 15,
+      "ms": 294.9035510001704,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 15,
+      "ms": 3014.0960729999933,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 15,
+      "ms": 2893.7841779999435,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 15,
+      "ms": 5922.99523,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 15,
+      "ms": 7100.701746999985,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 15,
+      "ms": 3958.1940810000524,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 16,
+      "ms": 811.8231039999519,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 16,
+      "ms": 3780.2944290000014,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 16,
+      "ms": 27121.759527000133,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 16,
+      "ms": 348.81580199999735,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 16,
+      "ms": 6975.68942900002,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 16,
+      "ms": 25190.191364000086,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 16,
+      "ms": 3036.2999190001283,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 16,
+      "ms": 5740.428791000042,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 16,
+      "ms": 3969.6031990000047,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 16,
+      "ms": 641.4353310000151,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 16,
+      "ms": 2831.634769999888,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 16,
+      "ms": 307.4468830002006,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 17,
+      "ms": 825.1248559998348,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 17,
+      "ms": 7248.248504000017,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 17,
+      "ms": 26768.405011999886,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 17,
+      "ms": 3699.469829000067,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 17,
+      "ms": 5901.71277299989,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 17,
+      "ms": 674.0783579999115,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 17,
+      "ms": 351.0650589999277,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 17,
+      "ms": 2891.7000179998577,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 17,
+      "ms": 301.5936189999338,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 17,
+      "ms": 3629.3695190001745,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 17,
+      "ms": 24872.504174999893,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 17,
+      "ms": 2974.502826999873,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 18,
+      "ms": 2842.6730630001985,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 18,
+      "ms": 303.83811999997124,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 18,
+      "ms": 3717.211012999993,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 18,
+      "ms": 667.162624000106,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 18,
+      "ms": 24734.542843000032,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 18,
+      "ms": 27296.821068999823,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 18,
+      "ms": 5666.098309000023,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 18,
+      "ms": 6946.809031000128,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 18,
+      "ms": 2996.9013269999996,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 18,
+      "ms": 850.5988940000534,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 18,
+      "ms": 4004.1436479999684,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 18,
+      "ms": 364.00863200007007,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 19,
+      "ms": 844.1478959999513,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 19,
+      "ms": 25089.06186300004,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 19,
+      "ms": 6000.652573000174,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "eslint",
+      "round": 19,
+      "ms": 2868.254278999986,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 19,
+      "ms": 311.885569000151,
+      "status": 0
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "oxlint",
+      "round": 19,
+      "ms": 672.1603289998602,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "rslint",
+      "round": 19,
+      "ms": 3986.16596400016,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 19,
+      "ms": 26961.668340999866,
+      "status": 1
+    },
+    {
+      "label": "stress",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 19,
+      "ms": 3674.2943019999657,
+      "status": 0
+    },
+    {
+      "label": "stress",
+      "mode": "core-combined",
+      "tool": "rslint",
+      "round": 19,
+      "ms": 7106.820612000069,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-combined",
+      "tool": "eslint",
+      "round": 19,
+      "ms": 3006.6573329998646,
+      "status": 1
+    },
+    {
+      "label": "fixture",
+      "mode": "core-ts",
+      "tool": "oxlint",
+      "round": 19,
+      "ms": 353.8772999998182,
+      "status": 0
+    }
+  ]
+}

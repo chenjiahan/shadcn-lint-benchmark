@@ -1,0 +1,391 @@
+{
+  "canary-ts": {
+    "eslint": {
+      "count": 25,
+      "byRule": {
+        "typescript/no-unsafe-assignment": 2,
+        "typescript/no-unsafe-call": 1,
+        "typescript/no-unsafe-member-access": 1,
+        "typescript/no-unsafe-argument": 1,
+        "typescript/no-unsafe-return": 1,
+        "typescript/no-unsafe-unary-minus": 1,
+        "typescript/await-thenable": 1,
+        "typescript/no-array-delete": 1,
+        "typescript/no-for-in-array": 1,
+        "typescript/no-duplicate-type-constituents": 1,
+        "typescript/no-redundant-type-constituents": 1,
+        "typescript/no-floating-promises": 1,
+        "typescript/no-misused-promises": 1,
+        "typescript/no-implied-eval": 1,
+        "typescript/no-unnecessary-type-assertion": 1,
+        "typescript/no-unsafe-enum-comparison": 1,
+        "typescript/only-throw-error": 1,
+        "typescript/prefer-promise-reject-errors": 1,
+        "typescript/require-await": 1,
+        "typescript/restrict-plus-operands": 1,
+        "typescript/no-base-to-string": 2,
+        "typescript/restrict-template-expressions": 1,
+        "typescript/unbound-method": 1
+      },
+      "ruleLocationSha256": "ac9871907ca5da0a20aa9c1413971d8eca57f44ade9b4e5aced373ef8dc5cde8",
+      "fullMessageSha256": "107b32288f4a17e888d1565fc060d5b8349c9eea7145201f260bc36b2d88c23c"
+    },
+    "oxlint": {
+      "count": 25,
+      "byRule": {
+        "typescript/no-unsafe-assignment": 2,
+        "typescript/no-unsafe-call": 1,
+        "typescript/no-unsafe-member-access": 1,
+        "typescript/no-unsafe-argument": 1,
+        "typescript/no-unsafe-return": 1,
+        "typescript/no-unsafe-unary-minus": 1,
+        "typescript/await-thenable": 1,
+        "typescript/no-array-delete": 1,
+        "typescript/no-for-in-array": 1,
+        "typescript/no-duplicate-type-constituents": 1,
+        "typescript/no-redundant-type-constituents": 1,
+        "typescript/no-floating-promises": 1,
+        "typescript/no-misused-promises": 1,
+        "typescript/no-implied-eval": 1,
+        "typescript/no-unnecessary-type-assertion": 1,
+        "typescript/no-unsafe-enum-comparison": 1,
+        "typescript/only-throw-error": 1,
+        "typescript/prefer-promise-reject-errors": 1,
+        "typescript/require-await": 1,
+        "typescript/restrict-plus-operands": 1,
+        "typescript/no-base-to-string": 2,
+        "typescript/restrict-template-expressions": 1,
+        "typescript/unbound-method": 1
+      },
+      "ruleLocationSha256": "4df587a982df89e09cd404f9936e70290b448360942f301b74a9ab4c5923bf8e",
+      "fullMessageSha256": "ee48a3010cbcda7aeeedb0fb98a382169b56783322b7940b5ea721c3bc9db880",
+      "number_of_files": 1,
+      "number_of_rules": 23,
+      "threads_count": 4,
+      "missingVsEslint": [
+        [
+          "canary.ts",
+          "typescript/await-thenable",
+          10,
+          39,
+          10,
+          47
+        ],
+        [
+          "canary.ts",
+          "typescript/no-array-delete",
+          12,
+          1,
+          12,
+          18
+        ],
+        [
+          "canary.ts",
+          "typescript/no-base-to-string",
+          28,
+          28,
+          28,
+          30
+        ],
+        [
+          "canary.ts",
+          "typescript/no-duplicate-type-constituents",
+          14,
+          34,
+          14,
+          40
+        ],
+        [
+          "canary.ts",
+          "typescript/no-floating-promises",
+          16,
+          1,
+          16,
+          21
+        ],
+        [
+          "canary.ts",
+          "typescript/no-unnecessary-type-assertion",
+          20,
+          35,
+          20,
+          44
+        ],
+        [
+          "canary.ts",
+          "typescript/no-unsafe-enum-comparison",
+          22,
+          46,
+          22,
+          56
+        ],
+        [
+          "canary.ts",
+          "typescript/require-await",
+          25,
+          8,
+          25,
+          35
+        ],
+        [
+          "canary.ts",
+          "typescript/unbound-method",
+          30,
+          25,
+          30,
+          48
+        ]
+      ],
+      "extraVsEslint": [
+        [
+          "canary.ts",
+          "typescript/await-thenable",
+          10,
+          45,
+          10,
+          47
+        ],
+        [
+          "canary.ts",
+          "typescript/no-array-delete",
+          12,
+          8,
+          12,
+          15
+        ],
+        [
+          "canary.ts",
+          "typescript/no-base-to-string",
+          28,
+          27,
+          28,
+          31
+        ],
+        [
+          "canary.ts",
+          "typescript/no-duplicate-type-constituents",
+          14,
+          25,
+          14,
+          31
+        ],
+        [
+          "canary.ts",
+          "typescript/no-floating-promises",
+          16,
+          1,
+          16,
+          20
+        ],
+        [
+          "canary.ts",
+          "typescript/no-unnecessary-type-assertion",
+          20,
+          34,
+          20,
+          43
+        ],
+        [
+          "canary.ts",
+          "typescript/no-unsafe-enum-comparison",
+          22,
+          46,
+          22,
+          50
+        ],
+        [
+          "canary.ts",
+          "typescript/require-await",
+          25,
+          1,
+          25,
+          35
+        ],
+        [
+          "canary.ts",
+          "typescript/unbound-method",
+          30,
+          39,
+          30,
+          48
+        ]
+      ]
+    },
+    "rslint": {
+      "count": 25,
+      "byRule": {
+        "typescript/no-unsafe-assignment": 2,
+        "typescript/no-unsafe-call": 1,
+        "typescript/no-unsafe-member-access": 1,
+        "typescript/no-unsafe-argument": 1,
+        "typescript/no-unsafe-return": 1,
+        "typescript/no-unsafe-unary-minus": 1,
+        "typescript/await-thenable": 1,
+        "typescript/no-array-delete": 1,
+        "typescript/no-for-in-array": 1,
+        "typescript/no-duplicate-type-constituents": 1,
+        "typescript/no-redundant-type-constituents": 1,
+        "typescript/no-floating-promises": 1,
+        "typescript/no-misused-promises": 1,
+        "typescript/no-implied-eval": 1,
+        "typescript/no-unnecessary-type-assertion": 1,
+        "typescript/no-unsafe-enum-comparison": 1,
+        "typescript/only-throw-error": 1,
+        "typescript/prefer-promise-reject-errors": 1,
+        "typescript/require-await": 1,
+        "typescript/restrict-plus-operands": 1,
+        "typescript/no-base-to-string": 2,
+        "typescript/restrict-template-expressions": 1,
+        "typescript/unbound-method": 1
+      },
+      "ruleLocationSha256": "615b17c353cc0a835fcd476359d0fcb49e39af8cfa47766f8179d2a516ee832c",
+      "fullMessageSha256": "043f2a6b9870f5b0cbc54265a440ac17df97213e9cfb40cde966da92c4266cca",
+      "missingVsEslint": [
+        [
+          "canary.ts",
+          "typescript/no-base-to-string",
+          28,
+          28,
+          28,
+          30
+        ]
+      ],
+      "extraVsEslint": [
+        [
+          "canary.ts",
+          "typescript/no-base-to-string",
+          28,
+          27,
+          28,
+          31
+        ]
+      ]
+    }
+  },
+  "fixture-core-ts": {
+    "eslint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "oxlint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "number_of_files": 12,
+      "number_of_rules": 84,
+      "threads_count": 4,
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    },
+    "rslint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    }
+  },
+  "fixture-core-combined": {
+    "eslint": {
+      "count": 37,
+      "byRule": {
+        "shadcn/no-arbitrary-values": 17,
+        "shadcn/no-restyle": 20
+      },
+      "ruleLocationSha256": "f371c2e5427a6c3f7c0d257ee1d433edd008da5021dc82aa6f483a36d1221572",
+      "fullMessageSha256": "07789b40134346dac626080dd9aad39d4fd958fa56c21fa17d13a593fb3eebab"
+    },
+    "oxlint": {
+      "count": 37,
+      "byRule": {
+        "shadcn/no-arbitrary-values": 17,
+        "shadcn/no-restyle": 20
+      },
+      "ruleLocationSha256": "f371c2e5427a6c3f7c0d257ee1d433edd008da5021dc82aa6f483a36d1221572",
+      "fullMessageSha256": "07789b40134346dac626080dd9aad39d4fd958fa56c21fa17d13a593fb3eebab",
+      "number_of_files": 12,
+      "number_of_rules": 90,
+      "threads_count": 4,
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    },
+    "rslint": {
+      "count": 37,
+      "byRule": {
+        "shadcn/no-arbitrary-values": 17,
+        "shadcn/no-restyle": 20
+      },
+      "ruleLocationSha256": "f371c2e5427a6c3f7c0d257ee1d433edd008da5021dc82aa6f483a36d1221572",
+      "fullMessageSha256": "07789b40134346dac626080dd9aad39d4fd958fa56c21fa17d13a593fb3eebab",
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    }
+  },
+  "stress-core-ts": {
+    "eslint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "oxlint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "number_of_files": 1000,
+      "number_of_rules": 84,
+      "threads_count": 4,
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    },
+    "rslint": {
+      "count": 0,
+      "byRule": {},
+      "ruleLocationSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "fullMessageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    }
+  },
+  "stress-core-combined": {
+    "eslint": {
+      "count": 21000,
+      "byRule": {
+        "shadcn/no-restyle": 20000,
+        "shadcn/no-arbitrary-values": 1000
+      },
+      "ruleLocationSha256": "c6e1010286d3f180a019839456c49b76beed9862ec3e4f3e680e5dd46a0d3af4",
+      "fullMessageSha256": "1c3913052a34d3a5889395e4147b5eda1e5c6093a3bb226a3c1a3434d9dbc3bb"
+    },
+    "oxlint": {
+      "count": 21000,
+      "byRule": {
+        "shadcn/no-restyle": 20000,
+        "shadcn/no-arbitrary-values": 1000
+      },
+      "ruleLocationSha256": "c6e1010286d3f180a019839456c49b76beed9862ec3e4f3e680e5dd46a0d3af4",
+      "fullMessageSha256": "1c3913052a34d3a5889395e4147b5eda1e5c6093a3bb226a3c1a3434d9dbc3bb",
+      "number_of_files": 1000,
+      "number_of_rules": 90,
+      "threads_count": 4,
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    },
+    "rslint": {
+      "count": 21000,
+      "byRule": {
+        "shadcn/no-arbitrary-values": 1000,
+        "shadcn/no-restyle": 20000
+      },
+      "ruleLocationSha256": "c6e1010286d3f180a019839456c49b76beed9862ec3e4f3e680e5dd46a0d3af4",
+      "fullMessageSha256": "1c3913052a34d3a5889395e4147b5eda1e5c6093a3bb226a3c1a3434d9dbc3bb",
+      "missingVsEslint": [],
+      "extraVsEslint": []
+    }
+  }
+}

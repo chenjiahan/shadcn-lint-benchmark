@@ -1,0 +1,17 @@
+{
+  "BENCHMARK.md": "ae5c71a8c6a943175b118c1ad7efe7c110c93370f63f858e962d092852dfa954",
+  "README.md": "57a4de2ace7f73482598f7cbd626a7254ffaa2add51d64de31d9d38473be3c13",
+  "artifact-metadata.json": "71aa02b8e78b3c43ef0e026ddcfc6c6b9f350386f2daa3c3ded263c882c2b267",
+  "benchmark-suite.json": "56a3cbe3baccaaebb9a74e36279fd90d2e5889b017b880f3771a1a2e70d782ba",
+  "core-canary-summary.json": "23ad645c50b91a446a0f6bb6f1acb98239116c3183e6c766628edb6159d345d5",
+  "core-rule-selection.json": "0c7e2ca3b413e3e248e85c1094761343156a11c720538af486ea3091949931a1",
+  "core-rules.json": "032b457e9d53fd5011acacc609f3b03cbcde40f4c365b43d49937051236a888c",
+  "effective-rules.json": "462d2f55cb32bb2527e5376e34416db1918f5305c30d3ed432dc65f47fdcfee6",
+  "environment.json": "c902c4882c6ad94962889e99f04c2279aca38d6c397c7fad3ac324cdf77dcc09",
+  "input-check.json": "64f8c8e01e71259dc7f18929005ccb464c9f3a3f06a25bd5624dbe510ea75d46",
+  "summary.json": "026f0fd7a3866f98e23254582c365e354a3cf4019e73be9a81f88fde9c7848cc",
+  "timings.csv": "5f828b05d0652dfef7de47e50908f069cb80db9f4b1cfa33fc0695e7fadfa351",
+  "timings.json": "98720957adefde82ab306ce7fb6f2627cdbbf9dd57705fe0eea3d7366caa6b30",
+  "validation-summary.json": "18f019c5f13e0144e13bf19c52f1520f9e335fcae4733a62858fa609f2fb63c2",
+  "workflow-run.json": "751b80635c0e482918e5cdd8c840b66fc9238053f0e312eff25d5cd3f8cc0873"
+}

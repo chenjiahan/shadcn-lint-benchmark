@@ -2,6 +2,8 @@
 
 Compare **Oxlint, Rslint, and ESLint** with identical inputs and enabled rules on GitHub Actions.
 
+**Latest CI results (61 core rules added):** [Results](results/34940350681/BENCHMARK.md) · [Raw data and verification](results/34940350681) · [Run #2](https://github.com/chenjiahan/shadcn-lint-benchmark/actions/runs/34940350681).
+
 **Previous CI results (without core rules):** [September 15, 2026](results/34934542739/BENCHMARK.md) · [Raw data](results/34934542739) · [Run #1](https://github.com/chenjiahan/shadcn-lint-benchmark/actions/runs/34934542739).
 
 ## Benchmarks

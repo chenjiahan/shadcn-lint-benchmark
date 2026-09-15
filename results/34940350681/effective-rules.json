@@ -1,0 +1,1058 @@
+{
+  "core-ts": {
+    "eslintActiveRules": [
+      "@typescript-eslint/await-thenable",
+      "@typescript-eslint/no-array-delete",
+      "@typescript-eslint/no-base-to-string",
+      "@typescript-eslint/no-duplicate-type-constituents",
+      "@typescript-eslint/no-floating-promises",
+      "@typescript-eslint/no-for-in-array",
+      "@typescript-eslint/no-implied-eval",
+      "@typescript-eslint/no-misused-promises",
+      "@typescript-eslint/no-redundant-type-constituents",
+      "@typescript-eslint/no-unnecessary-type-assertion",
+      "@typescript-eslint/no-unsafe-argument",
+      "@typescript-eslint/no-unsafe-assignment",
+      "@typescript-eslint/no-unsafe-call",
+      "@typescript-eslint/no-unsafe-enum-comparison",
+      "@typescript-eslint/no-unsafe-member-access",
+      "@typescript-eslint/no-unsafe-return",
+      "@typescript-eslint/no-unsafe-unary-minus",
+      "@typescript-eslint/only-throw-error",
+      "@typescript-eslint/prefer-promise-reject-errors",
+      "@typescript-eslint/require-await",
+      "@typescript-eslint/restrict-plus-operands",
+      "@typescript-eslint/restrict-template-expressions",
+      "@typescript-eslint/unbound-method",
+      "constructor-super",
+      "for-direction",
+      "getter-return",
+      "no-async-promise-executor",
+      "no-case-declarations",
+      "no-class-assign",
+      "no-compare-neg-zero",
+      "no-cond-assign",
+      "no-const-assign",
+      "no-constant-binary-expression",
+      "no-constant-condition",
+      "no-control-regex",
+      "no-debugger",
+      "no-delete-var",
+      "no-dupe-class-members",
+      "no-dupe-else-if",
+      "no-dupe-keys",
+      "no-duplicate-case",
+      "no-empty",
+      "no-empty-character-class",
+      "no-empty-pattern",
+      "no-empty-static-block",
+      "no-ex-assign",
+      "no-extra-boolean-cast",
+      "no-fallthrough",
+      "no-func-assign",
+      "no-global-assign",
+      "no-import-assign",
+      "no-invalid-regexp",
+      "no-irregular-whitespace",
+      "no-loss-of-precision",
+      "no-misleading-character-class",
+      "no-new-native-nonconstructor",
+      "no-obj-calls",
+      "no-prototype-builtins",
+      "no-redeclare",
+      "no-regex-spaces",
+      "no-self-assign",
+      "no-setter-return",
+      "no-shadow-restricted-names",
+      "no-sparse-arrays",
+      "no-this-before-super",
+      "no-unassigned-vars",
+      "no-undef",
+      "no-unexpected-multiline",
+      "no-unreachable",
+      "no-unsafe-finally",
+      "no-unsafe-negation",
+      "no-unsafe-optional-chaining",
+      "no-unused-labels",
+      "no-unused-private-class-members",
+      "no-unused-vars",
+      "no-useless-assignment",
+      "no-useless-backreference",
+      "no-useless-catch",
+      "no-useless-escape",
+      "no-with",
+      "preserve-caught-error",
+      "require-yield",
+      "use-isnan",
+      "valid-typeof"
+    ],
+    "rslintExecutedRules": [
+      {
+        "rule": "@typescript-eslint/await-thenable",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-array-delete",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-base-to-string",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-duplicate-type-constituents",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-floating-promises",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-for-in-array",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-implied-eval",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-misused-promises",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-redundant-type-constituents",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unnecessary-type-assertion",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-argument",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-assignment",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-call",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-enum-comparison",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-member-access",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-unary-minus",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/only-throw-error",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/prefer-promise-reject-errors",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/require-await",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/restrict-plus-operands",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/restrict-template-expressions",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/unbound-method",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "constructor-super",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "for-direction",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "getter-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-async-promise-executor",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-case-declarations",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-class-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-compare-neg-zero",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-cond-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-const-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-constant-binary-expression",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-constant-condition",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-control-regex",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-debugger",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-delete-var",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-class-members",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-else-if",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-keys",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-duplicate-case",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-character-class",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-pattern",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-static-block",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-ex-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-extra-boolean-cast",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-fallthrough",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-func-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-global-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-import-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-invalid-regexp",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-irregular-whitespace",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-loss-of-precision",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-misleading-character-class",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-new-native-nonconstructor",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-obj-calls",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-prototype-builtins",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-redeclare",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-regex-spaces",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-self-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-setter-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-shadow-restricted-names",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-sparse-arrays",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-this-before-super",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unassigned-vars",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-undef",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unexpected-multiline",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unreachable",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-finally",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-negation",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-optional-chaining",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-labels",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-private-class-members",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-vars",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-assignment",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-backreference",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-catch",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-escape",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-with",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "preserve-caught-error",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "require-yield",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "use-isnan",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "valid-typeof",
+        "engine": "native",
+        "files": 12
+      }
+    ]
+  },
+  "core-combined": {
+    "eslintActiveRules": [
+      "@typescript-eslint/await-thenable",
+      "@typescript-eslint/no-array-delete",
+      "@typescript-eslint/no-base-to-string",
+      "@typescript-eslint/no-duplicate-type-constituents",
+      "@typescript-eslint/no-floating-promises",
+      "@typescript-eslint/no-for-in-array",
+      "@typescript-eslint/no-implied-eval",
+      "@typescript-eslint/no-misused-promises",
+      "@typescript-eslint/no-redundant-type-constituents",
+      "@typescript-eslint/no-unnecessary-type-assertion",
+      "@typescript-eslint/no-unsafe-argument",
+      "@typescript-eslint/no-unsafe-assignment",
+      "@typescript-eslint/no-unsafe-call",
+      "@typescript-eslint/no-unsafe-enum-comparison",
+      "@typescript-eslint/no-unsafe-member-access",
+      "@typescript-eslint/no-unsafe-return",
+      "@typescript-eslint/no-unsafe-unary-minus",
+      "@typescript-eslint/only-throw-error",
+      "@typescript-eslint/prefer-promise-reject-errors",
+      "@typescript-eslint/require-await",
+      "@typescript-eslint/restrict-plus-operands",
+      "@typescript-eslint/restrict-template-expressions",
+      "@typescript-eslint/unbound-method",
+      "constructor-super",
+      "for-direction",
+      "getter-return",
+      "no-async-promise-executor",
+      "no-case-declarations",
+      "no-class-assign",
+      "no-compare-neg-zero",
+      "no-cond-assign",
+      "no-const-assign",
+      "no-constant-binary-expression",
+      "no-constant-condition",
+      "no-control-regex",
+      "no-debugger",
+      "no-delete-var",
+      "no-dupe-class-members",
+      "no-dupe-else-if",
+      "no-dupe-keys",
+      "no-duplicate-case",
+      "no-empty",
+      "no-empty-character-class",
+      "no-empty-pattern",
+      "no-empty-static-block",
+      "no-ex-assign",
+      "no-extra-boolean-cast",
+      "no-fallthrough",
+      "no-func-assign",
+      "no-global-assign",
+      "no-import-assign",
+      "no-invalid-regexp",
+      "no-irregular-whitespace",
+      "no-loss-of-precision",
+      "no-misleading-character-class",
+      "no-new-native-nonconstructor",
+      "no-obj-calls",
+      "no-prototype-builtins",
+      "no-redeclare",
+      "no-regex-spaces",
+      "no-self-assign",
+      "no-setter-return",
+      "no-shadow-restricted-names",
+      "no-sparse-arrays",
+      "no-this-before-super",
+      "no-unassigned-vars",
+      "no-undef",
+      "no-unexpected-multiline",
+      "no-unreachable",
+      "no-unsafe-finally",
+      "no-unsafe-negation",
+      "no-unsafe-optional-chaining",
+      "no-unused-labels",
+      "no-unused-private-class-members",
+      "no-unused-vars",
+      "no-useless-assignment",
+      "no-useless-backreference",
+      "no-useless-catch",
+      "no-useless-escape",
+      "no-with",
+      "preserve-caught-error",
+      "require-yield",
+      "shadcn/no-arbitrary-values",
+      "shadcn/no-inline-styles",
+      "shadcn/no-raw-colors",
+      "shadcn/no-restyle",
+      "shadcn/no-unknown-classes",
+      "shadcn/require-static-classes",
+      "use-isnan",
+      "valid-typeof"
+    ],
+    "rslintExecutedRules": [
+      {
+        "rule": "@typescript-eslint/await-thenable",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-array-delete",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-base-to-string",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-duplicate-type-constituents",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-floating-promises",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-for-in-array",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-implied-eval",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-misused-promises",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-redundant-type-constituents",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unnecessary-type-assertion",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-argument",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-assignment",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-call",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-enum-comparison",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-member-access",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/no-unsafe-unary-minus",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/only-throw-error",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/prefer-promise-reject-errors",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/require-await",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/restrict-plus-operands",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/restrict-template-expressions",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "@typescript-eslint/unbound-method",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "constructor-super",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "for-direction",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "getter-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-async-promise-executor",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-case-declarations",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-class-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-compare-neg-zero",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-cond-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-const-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-constant-binary-expression",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-constant-condition",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-control-regex",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-debugger",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-delete-var",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-class-members",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-else-if",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-dupe-keys",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-duplicate-case",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-character-class",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-pattern",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-empty-static-block",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-ex-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-extra-boolean-cast",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-fallthrough",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-func-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-global-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-import-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-invalid-regexp",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-irregular-whitespace",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-loss-of-precision",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-misleading-character-class",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-new-native-nonconstructor",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-obj-calls",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-prototype-builtins",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-redeclare",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-regex-spaces",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-self-assign",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-setter-return",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-shadow-restricted-names",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-sparse-arrays",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-this-before-super",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unassigned-vars",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-undef",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unexpected-multiline",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unreachable",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-finally",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-negation",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unsafe-optional-chaining",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-labels",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-private-class-members",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-unused-vars",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-assignment",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-backreference",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-catch",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-useless-escape",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "no-with",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "preserve-caught-error",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "require-yield",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/no-arbitrary-values",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/no-inline-styles",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/no-raw-colors",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/no-restyle",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/no-unknown-classes",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "shadcn/require-static-classes",
+        "engine": "js",
+        "files": 12
+      },
+      {
+        "rule": "use-isnan",
+        "engine": "native",
+        "files": 12
+      },
+      {
+        "rule": "valid-typeof",
+        "engine": "native",
+        "files": 12
+      }
+    ]
+  }
+}

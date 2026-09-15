@@ -1,0 +1,16 @@
+{
+  "name": "shared-eslint-recommended-core",
+  "coreRules": 61,
+  "typeAwareRules": 23,
+  "shadcnRules": 6,
+  "modes": {
+    "core-ts": {
+      "title": "61 Core Rules + 23 Type-Aware Rules",
+      "ruleCount": 84
+    },
+    "core-combined": {
+      "title": "6 Shadcn Rules + 61 Core Rules + 23 Type-Aware Rules",
+      "ruleCount": 90
+    }
+  }
+}
